@@ -45,7 +45,7 @@ public class App {
                     System.out.print("Nilai kemampuan design thinking\t: ");
                     design = inputKeyboard.nextDouble();
                     
-                }while(essai <= 0 || essai >=100 || visualisasi <= 0 || visualisasi >=100 || design <=0 || design >=100);
+                }while(essai < 0 || essai >100 || visualisasi < 0 || visualisasi >100 || design <0 || design >100);
                 
                 do{
                     System.out.println("");
@@ -81,7 +81,7 @@ public class App {
                             System.out.print("Nilai kemampuan design thinking\t: ");
                             design = inputKeyboard.nextDouble();
 
-                        }while(essai <= 0 || essai >=100 || visualisasi <= 0 || visualisasi >=100 || design <=0 || design >=100);
+                        }while(essai < 0 || essai >100 || visualisasi < 0 || visualisasi >100 || design <0 || design >100);
                     }else{
                         System.out.println("Pilih menu 1-3");
                     }
@@ -108,7 +108,7 @@ public class App {
                     System.out.print("Nilai kemampuan problem solving\t\t: ");
                     problemSolving = inputKeyboard.nextDouble();
                     
-                }while(jurnal <= 0 || jurnal >=100 || relevansi <= 0 || relevansi >=100 || problemSolving <=0 || problemSolving >=100);
+                }while(jurnal < 0 || jurnal >100 || relevansi < 0 || relevansi >100 || problemSolving <0 || problemSolving >100);
                 
                 do{
                     System.out.println("");
@@ -147,7 +147,7 @@ public class App {
                             System.out.print("Nilai kemampuan problem solving\t\t: ");
                             problemSolving = inputKeyboard.nextDouble();
 
-                        }while(jurnal <= 0 || jurnal >=100 || relevansi <= 0 || relevansi >=100 || problemSolving <=0 || problemSolving >=100);
+                        }while(jurnal < 0 || jurnal >100 || relevansi < 0 || relevansi >100 || problemSolving <0 || problemSolving >100);
                     }else{
                         System.out.println("Pilih menu 1-3");
                     }
